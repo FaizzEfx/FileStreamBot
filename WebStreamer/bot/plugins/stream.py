@@ -76,7 +76,7 @@ async def private_receive_handler(c: Client, m: Message):
 <b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n
 <b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n
 <b>🚸 Nᴏᴛᴇ : Tʜɪs ᴘᴇʀᴍᴀɴᴇɴᴛ Lɪɴᴋ, Nᴏᴛ Exᴘɪʀᴇᴅ</b>\n
-<i>© <a href='https://t.me/MSPbots'>ᴍꜱᴘ ʙᴏᴛꜱ</a> </i>"""
+<b>⚡️ᴘᴏᴡᴇʀᴇᴅ ʙʏ : <a href='https://t.me/MSPbots'>ᴍꜱᴘ ʙᴏᴛꜱ</a>"""
 
         await log_msg.reply_text(text=f"**RᴇQᴜᴇꜱᴛᴇᴅ ʙʏ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**Uꜱᴇʀ ɪᴅ :** `{m.from_user.id}`\n**Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ :** {stream_link}", disable_web_page_preview=True, parse_mode="Markdown", quote=True)
         await m.reply_text(
